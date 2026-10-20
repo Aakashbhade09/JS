@@ -38,3 +38,38 @@ console.table(typeof heros);  //object
 console.table(typeof BigNUmber);  //undefind 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+**********************Memory**********************
+stack => primitive data type ke liye 
+yaha value copy di jati hai 
+
+heap  => non-primitive data type  ke liye  
+yaha direct refrence diya jata hai 
+
+exmple se niche explain kiya hai 
+*/
+
+let myYoutubename ="aakashbhadedotcom"
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode";
+
+console.log(anothername);
+console.log(myYoutubename);  
+
+
+let userOne ={
+    email:"aakashgoogle.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email ="user@google.com";
+
+console.log(userOne)
+console.log(userOne)
