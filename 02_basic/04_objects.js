@@ -62,5 +62,35 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLogged'));  //false
 
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "aakash"
+}
+
+// course.courseInstructor 
+
+const  {courseInstructor :  instructor} = course;  // isko destructuring bolte hai
+
+//console.log(courseInstructor);  // better way to access 
+console.log(instructor); // hamne yaha {courseInstructor :  instructor} courseInstructor ko  instructor name seuse kar liya 
 
 
+// api ke data return karne ke formate 
+
+//json
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+
+
+//array format (yaha array ke ander  object hai )
+[
+    {},
+    {},
+    {}
+]
