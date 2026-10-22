@@ -13,5 +13,5 @@
     console.log(`DB CONNECTED TWO ${name}`)
 })('aakash')
 
-/* note =>  agar 1 file me 1 se jyada iife likh rahe ho to hame har function me bad (;) 
-semicolan use kar chahiye nhi to error aayegi  */
+/* note =>  agar 1 file me 1 se jyada iife likh rahe ho to hame har function Ke bad (;) 
+semicolan use karna chahiye nhi to error aayegi  */
