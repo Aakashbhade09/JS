@@ -54,8 +54,8 @@ users[1].email
 
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
+console.log(Object.keys(tinderUser));  //key ka ak array return karta hai  [ 'id', 'name', 'isLoggedIn' ]
+console.log(Object.values(tinderUser)); //value ka ak array return karta hai [ '123abc', 'Sammy', false ]
 // console.log(Object.entries(tinderUser));
 
 //console.log(tinderUser.hasOwnProperty('isLoggedIn')); //true
