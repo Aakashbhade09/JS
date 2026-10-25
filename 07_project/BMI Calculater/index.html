@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="bmi-card">
+            <h1>BMI Calculator</h1>
+            <p class="subtitle">Calculate your Body Mass Index</p>
+
+            <form>
+                <div class="input-group">
+                    <label for="height">Height (cm)</label>
+                    <input
+                        type="number"
+                        id="height"
+                        placeholder="Enter height in cm"
+                        min="1"
+                        step="any"
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="weight">Weight (kg)</label>
+                    <input
+                        type="number"
+                        id="weight"
+                        placeholder="Enter weight in kg"
+                        min="1"
+                        step="any"
+                    >
+                </div>
+
+                <button type="submit">Calculate BMI</button>
+            </form>
+
+            <div class="result-box">
+                <h2>Your BMI</h2>
+                <div id="results">Your result will appear here</div>
+            </div>
+
+            <div class="bmi-guide">
+                <h3>BMI Categories</h3>
+                <div class="category">
+                    <span>Underweight</span>
+                    <span>Below 18.5</span>
+                </div>
+                <div class="category">
+                    <span>Normal weight</span>
+                    <span>18.5 – 24.9</span>
+                </div>
+                <div class="category">
+                    <span>Overweight</span>
+                    <span>25 – 29.9</span>
+                </div>
+                <div class="category">
+                    <span>Obesity</span>
+                    <span>30 and above</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

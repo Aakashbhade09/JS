@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronos | Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <main class="clock-container">
+        <section class="clock-card">
+
+            <header class="top-bar">
+                <div class="brand">
+                    <div class="brand-icon">◷</div>
+                    <span>CHRONOS</span>
+                </div>
+
+                <div class="live-status">
+                    <span class="status-dot"></span>
+                    LIVE
+                </div>
+            </header>
+
+            <div class="clock-content">
+                <div class="clock-icon">◷</div>
+
+                <p class="eyebrow">YOUR LOCAL TIME</p>
+
+                <div id="clock">00:00:00 AM</div>
+
+                <p class="description">
+                    Every second matters.
+                </p>
+            </div>
+
+            <div class="divider"></div>
+
+            <footer class="bottom-bar">
+                <div>
+                    <span class="label">STATUS</span>
+                    <span class="value">
+                        <span class="status-dot"></span>
+                        Running smoothly
+                    </span>
+                </div>
+
+                <div class="format">
+                    <span class="label">TIME FORMAT</span>
+                    <span class="value">12-hour clock</span>
+                </div>
+            </footer>
+
+        </section>
+
+        <p class="copyright">
+            DESIGNED FOR EVERY SECOND &bull; CHRONOS
+        </p>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
